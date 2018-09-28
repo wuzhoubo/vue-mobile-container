@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <vue-mobile-container style="border:1px solid red;margin:0 auto" :link="link" :url="url" iframe></vue-mobile-container>
+    <vue-mobile-container 
+      class="container"
+      :link="link" 
+      :url="url" 
+      iframe />
   </div>
 </template>
 
@@ -13,6 +17,7 @@ export default {
   },
   data () {
     return {
+      width:200,
       link:'www.baidu.com',
       html:'<div><h1>百度一下你就知道</h1></div>',
       url:'http://m.baidu.com'
@@ -20,3 +25,10 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.container{
+  border:2px solid #ddd;
+  margin:0 auto;
+  border-radius:4px;
+}
+</style>
