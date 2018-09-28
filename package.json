@@ -1,9 +1,25 @@
 {
   "name": "vue-mobile-container",
   "description": "vue-mobile-container",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "author": "e <wuzhoubo@yeah.net>",
   "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/wuzhoubo/vue-mobile-container"
+  },
+  "bugs": {
+		"url": "https://github.com/wuzhoubo/vue-mobile-container/issues"
+  },
+  "keywords": [
+    "vue",
+    "mobile",
+    "mobile-container",
+    "phone-container",
+    "android",
+    "ios",
+    "Browser"
+  ],
   "private": false,
   "main":"dist/vueMobileContainer.js",
   "scripts": {
