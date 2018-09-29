@@ -44,7 +44,7 @@ $ npm install vue-select
 </script>
 ```
 
-##props
+## props
 
 | name | type | default | description |
 | ------ | ------ | ------ | ------ |
@@ -57,7 +57,7 @@ $ npm install vue-select
 | reflush | Boolean | false | Reflush the page |
 
 
-##Style
+## Style
 
  you can add any style like this
 
