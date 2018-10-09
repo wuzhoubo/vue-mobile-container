@@ -13,7 +13,7 @@
 #### NPM
 
 ```bash
-$ npm install vue-select
+$ npm install vue-mobile-container
 ```
 #### template
 ```html
@@ -28,7 +28,7 @@ $ npm install vue-select
 #### javascript
 ```javascript
 <script>
-    import vueMobileContainer from 'vueMobileContainer'
+    import vueMobileContainer from 'vue-mobile-container'
     export default {
     name: 'app',
     components: {
